@@ -1,0 +1,23 @@
+# Ignore generated subfolders
+**/target/**
+**/bin/**
+**/boot/**
+**/classes/**
+**/out/**
+**/build/**
+**/dist/**
+
+#ignore IDE specific files
+.idea/
+
+# Ignore generated files
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.bak
+*.swp
+*.lock
+**/*.class
