@@ -9,6 +9,7 @@
 
 #ignore IDE specific files
 .idea/
+**/.idea
 
 # Ignore generated files
 **/.DS_Store
