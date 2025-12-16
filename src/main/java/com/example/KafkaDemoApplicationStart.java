@@ -10,10 +10,10 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @ComponentScan("com.example")
 @EnableWebMvc
 @EnableKafka
-public class KafkaDemoApplication {
+public class KafkaDemoApplicationStart {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KafkaDemoApplication.class, args);
+		SpringApplication.run(KafkaDemoApplicationStart.class, args);
 	}
 
 }
